@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Comptible" content="IE-edge">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
 <title>Phortfolio</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <script src="https://kit.fontawesome.com/c8e4d183c2.js" 
 crossorigin="anonymous"></script>
 </head>
@@ -12,7 +14,7 @@ crossorigin="anonymous"></script>
     <!--navigation-->
         <nav>
         <!--logo-->
-        <a href="#" class="logo">G T internet</a>
+        <a href="#" class="logo">My Phortfolio</a>
         <!--menu-->
         <ul>
         <li><a href="#" class="active" >Home</a></li>
@@ -20,22 +22,26 @@ crossorigin="anonymous"></script>
         <li><a href="#">Contact us</a></li>
         <li><a href="#">Team</a></li>
         </ul>
+		<!--bar----->
+		<div class="toggle"></div>
+		
         </nav>
 	<!--text--->
 		<div class="text-container">
-		<p>hello,</p>
+		<p>Hello,</p>
 		<p>I am Ritesh Vaishnav</p>
 		<p>I am Software Engineer</p>
 		<button class="hire-btn">Hire Me</button>
 		<button class="down-cv">Download CV</button>
+		<button class="down-projects">Download projects</button>
 		</div>
 	<!--model--->
-		<img src="images/preview.png" class="model" alt="model">
+		<img src="preview.png" class="model" alt="model">
     </section>
 	<!--about-section--->
     <div class="about-container">
 	<!--img--->
-		<img src="images/preview-1.jpg">
+		<img src="preview-1.jpg">
 	<!--about-text--->
          <div class="about-text">
 	     <p>About me</p>
@@ -117,5 +123,16 @@ crossorigin="anonymous"></script>
 	 <a href="#"><i class="fab fa-instagram"></i></a>
 	 <a href="#"><i class="fab fa-youtube"></i></a>
 	 </div>
+	 <!---Jquery---------->
+	 <script type="text/javascript" scr="js.JQuery.js"></script>
+	 <script type="text/javascript">
+	 $(document).ready(function(){
+	 $('.toggle').click(fuction){
+	  $('.nav').toggleClass('active')
+	 } 
+	 })
+	 
+	 
+	 </script>
 </body>
 </html>
