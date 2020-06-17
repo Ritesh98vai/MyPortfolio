@@ -265,7 +265,7 @@ background-image:url("../images/servies-3.png");
 	 outline:none;
 	 border-radius:5px;
  }
-.contact-me{
+.contact-info{
 	width:100;
 	height:280px;
 	background-image:url("../images/project in your mind.png");
@@ -276,12 +276,12 @@ background-image:url("../images/servies-3.png");
 	justify-content:center;
 	align-items:center;
 	}
-.contact-me p{
+.contact-info p{
 	color:#FFFFFF;
 	font-size:30px;
 	font-family:calibri;
-	font-weight:bold;
-	border-bottom:2px solid #FFFFFF;
+	/*font-weight:bold;
+	border-bottom:2px solid #FFFFFF;*/
 }
 .contact-me button{
 	width:200;
